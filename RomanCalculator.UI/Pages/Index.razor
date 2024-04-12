@@ -15,14 +15,14 @@
 		<div class="row mb-3">
 			<label for="First" class="col-form-label col-md-3">Left Operand</label>
 			<div class="col-md-8">
-				<InputText id="first" class="form-control col-md-8" @bind-Value="@RomanInputModel.Left" placeholder="Enter First Operand"></InputText>
+				<InputText id="first" class="form-control col-md-8" @bind-Value="@RomanInputModel.Left" placeholder="Enter Left Operand"></InputText>
 			</div>
 			<ValidationMessage class="offset-md-3 mt-1 col-md-8" For="@(()=> RomanInputModel.Left )" />
 		</div>
 		<div class="row mb-3">
-			<label for="First" class="col-form-label col-md-3">Second Operand</label>
+			<label for="First" class="col-form-label col-md-3">Right Operand</label>
 			<div class="col-md-8">
-				<InputText id="first" class="form-control col-md-8" @bind-Value="@RomanInputModel.Right" placeholder="Enter second Operand"></InputText>
+				<InputText id="first" class="form-control col-md-8" @bind-Value="@RomanInputModel.Right" placeholder="Enter Right Operand"></InputText>
 			</div>
 			<ValidationMessage class="offset-md-3 mt-1 col-md-8" For="@(()=> RomanInputModel.Right )" />
 		</div>
