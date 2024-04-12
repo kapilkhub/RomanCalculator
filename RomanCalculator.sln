@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DAE35155-E341-4983-8581-1518A9FBBAC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanCalculator.Tests", "RomanCalculator.Tests\RomanCalculator.Tests.csproj", "{D871C4B6-7A82-4D26-8FDF-A98551B8A4D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Math.Roman", "Math.Roman\Math.Roman.csproj", "{B4F07B5B-3114-4B2F-A9A9-3C67BE015EB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{E7A8A9B0-CC12-4972-AE18-950815165F4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Math.Roman.Tests", "Math.Roman.Tests\Math.Roman.Tests.csproj", "{23989F99-2D94-452D-BE41-8E75FE3B7A6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanCalculator.Api", "RomanCalculator.Api\RomanCalculator.Api.csproj", "{47FBF48B-0213-4E67-B1DE-E57161D800F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{CD542A47-722D-42CB-A409-B3B6E2F86571}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{181D2030-8ACF-494A-8BDA-6AFAA2E869C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanCalculator.UI", "RomanCalculator.UI\RomanCalculator.UI.csproj", "{AE88E30A-D8C9-405D-9534-27D00BEC040D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D871C4B6-7A82-4D26-8FDF-A98551B8A4D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D871C4B6-7A82-4D26-8FDF-A98551B8A4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D871C4B6-7A82-4D26-8FDF-A98551B8A4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D871C4B6-7A82-4D26-8FDF-A98551B8A4D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F07B5B-3114-4B2F-A9A9-3C67BE015EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F07B5B-3114-4B2F-A9A9-3C67BE015EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F07B5B-3114-4B2F-A9A9-3C67BE015EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F07B5B-3114-4B2F-A9A9-3C67BE015EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23989F99-2D94-452D-BE41-8E75FE3B7A6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23989F99-2D94-452D-BE41-8E75FE3B7A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23989F99-2D94-452D-BE41-8E75FE3B7A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23989F99-2D94-452D-BE41-8E75FE3B7A6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47FBF48B-0213-4E67-B1DE-E57161D800F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47FBF48B-0213-4E67-B1DE-E57161D800F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47FBF48B-0213-4E67-B1DE-E57161D800F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47FBF48B-0213-4E67-B1DE-E57161D800F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE88E30A-D8C9-405D-9534-27D00BEC040D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE88E30A-D8C9-405D-9534-27D00BEC040D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE88E30A-D8C9-405D-9534-27D00BEC040D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE88E30A-D8C9-405D-9534-27D00BEC040D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D871C4B6-7A82-4D26-8FDF-A98551B8A4D9} = {CD542A47-722D-42CB-A409-B3B6E2F86571}
+		{B4F07B5B-3114-4B2F-A9A9-3C67BE015EB6} = {E7A8A9B0-CC12-4972-AE18-950815165F4D}
+		{23989F99-2D94-452D-BE41-8E75FE3B7A6E} = {E7A8A9B0-CC12-4972-AE18-950815165F4D}
+		{47FBF48B-0213-4E67-B1DE-E57161D800F8} = {CD542A47-722D-42CB-A409-B3B6E2F86571}
+		{AE88E30A-D8C9-405D-9534-27D00BEC040D} = {181D2030-8ACF-494A-8BDA-6AFAA2E869C2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83F385E2-807D-420B-95C1-4BBD9EBEEC93}
+	EndGlobalSection
+EndGlobal

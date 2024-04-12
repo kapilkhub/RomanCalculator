@@ -1,0 +1,52 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+
+
+<section>
+	<h1 class="page-title">Roman Calculator</h1>
+	<EditForm Model="@RomanInputModel" OnInvalidSubmit="@HandleInValidSubmit" OnValidSubmit="@HandleValidSubmit">
+		<DataAnnotationsValidator />
+		<div class="mt-1 alert alert-info">
+			Please note, any operation resulting in zero , non-negative or values greater than 3999 will result in error. This is because roman numbers
+			are always between 0 and 3999.
+		</div>
+		<div class="row mb-3">
+			<label for="First" class="col-form-label col-md-3">Left Operand</label>
+			<div class="col-md-8">
+				<InputText id="first" class="form-control col-md-8" @bind-Value="@RomanInputModel.Left" placeholder="Enter First Operand"></InputText>
+			</div>
+			<ValidationMessage class="offset-md-3 mt-1 col-md-8" For="@(()=> RomanInputModel.Left )" />
+		</div>
+		<div class="row mb-3">
+			<label for="First" class="col-form-label col-md-3">Second Operand</label>
+			<div class="col-md-8">
+				<InputText id="first" class="form-control col-md-8" @bind-Value="@RomanInputModel.Right" placeholder="Enter second Operand"></InputText>
+			</div>
+			<ValidationMessage class="offset-md-3 mt-1 col-md-8" For="@(()=> RomanInputModel.Right )" />
+		</div>
+		<div class="row mb-3">
+			<label for="Operator" class="col-form-label col-md-3">Select Operator</label>
+			<div class="col-md-8">
+				<InputSelect id="operator" class="form-select col-md-8"
+							 @bind-Value="@RomanInputModel.OperatorId">
+					@foreach (var romanOperator in RomanOperators)
+					{
+						<option value="@romanOperator">@romanOperator.ToString()</option>
+					}
+				</InputSelect>
+			</div>
+		</div>
+		<button type="submit" class="btn btn-primary me-1">Calculate</button>
+
+		<div class="mt-3 @StatusClass">@Message</div>
+
+		
+	</EditForm>
+</section>
+
+
+<div>
+	
+</div>
